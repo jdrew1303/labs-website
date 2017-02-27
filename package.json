@@ -1,6 +1,5 @@
 {
   "name": "labs-website",
-  "homepage": "https://excellalabs.github.io",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
