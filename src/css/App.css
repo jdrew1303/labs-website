@@ -16,3 +16,7 @@
 .App-intro {
   font-size: large;
 }
+
+.App ul li {
+  text-align: left;
+}

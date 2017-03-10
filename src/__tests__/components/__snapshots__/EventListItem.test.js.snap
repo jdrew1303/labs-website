@@ -1,0 +1,8 @@
+exports[`test should render event name as  correctly 1`] = `
+<Unknown
+  event={
+    Object {
+      "event_name": "Understanding How Collaboration Increases Productivity",
+    }
+  } />
+`;
