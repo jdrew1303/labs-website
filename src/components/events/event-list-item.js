@@ -11,7 +11,8 @@ export class EventListItem extends React.Component {
 
         return (
             <li>
-                { event.event_name }
+                <a href={event.event_url} target="_blank" >{ event.event_name }</a><br />
+                { event.group_name }
             </li>
         );
     }

@@ -5,7 +5,7 @@ const event = { "event_name": "Understanding How Collaboration Increases Product
 
 const setEvents = () => { return; }
 
-it('should render event name as  correctly', () => {
+it('should render event name ucorrectly', () => {
     const tree = (
       <EventListItem event={event} />
     )
