@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import logo from '../images/excella-labs-logo.png';
-import '../css/App.css';
-
 import { actionCreators } from '../redux/rootReducer';
+import { Navigation } from './nav/index';
+import { Banner } from './banner/index';
 import { MeetupEvents } from '../components/events/index';
+import '../css/App.css';
 
 
 const mapStateToProps = state => {
@@ -23,10 +23,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="excella-labs-logo" />
-          <h2>Welcome to the future home of Excella Labs!</h2>
-        </div>
+        <Navigation />
+        <Banner />
         <MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />
       </div>
     );
