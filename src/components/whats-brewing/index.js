@@ -1,17 +1,17 @@
-import React from 'react';
-import { Button, Grid, Row, Col } from 'react-bootstrap';
+import React from 'react'
+import { Button, Grid, Row, Col, Image } from 'react-bootstrap'
 import computerImage from '../../images/computer-photo.jpeg'
 
 const WhatsBrewingComponent = () => (
     <Grid>
         <Row>
-            <Col md={8}>
+            <Col md={12}>
                 <h1>What's Brewing</h1>
             </Col>
         </Row>
         <Row>
-            <Col md={4}>
-                <img src={computerImage} style={{width: '100%'}} />
+            <Col md={8}>
+                <Image src={computerImage} responsive alt="What's Brewing" />
             </Col>
             <Col md={4}>
                 <p>While you’re waiting for our website to come to life, feast on some of the work we’ve already done. Check out our blog to see what’s brewing!</p>
@@ -19,6 +19,6 @@ const WhatsBrewingComponent = () => (
             </Col>
         </Row>
     </Grid>
-);
+)
 
-export default WhatsBrewingComponent;
+export default WhatsBrewingComponent
