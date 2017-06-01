@@ -4,6 +4,7 @@ import { actionCreators } from '../redux/rootReducer';
 import { Navigation } from './nav/index';
 import { Banner } from './banner/index';
 import { MeetupEvents } from '../components/events/index';
+import WhatsBrewing from '../components/whats-brewing';
 import '../css/App.css';
 
 
@@ -26,6 +27,7 @@ class App extends React.Component {
         <Navigation />
         <Banner />
         <MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />
+        <WhatsBrewing />
       </div>
     );
   }
