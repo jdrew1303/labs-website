@@ -20,9 +20,9 @@ export const reducer = (state = initialState, action) => {
     switch(action.type) {
         case types.setEvents:
           return {...state, events: state.events.concat(action.value)};
-          break;
+          break; //eslint-disable-line
         default:
           return state;
-          break;
+          break; //eslint-disable-line
     }
 }

@@ -1,0 +1,18 @@
+.jumbotron {
+  height: 100vh;
+  color: #fff;
+  background-image: url('../../images/banner-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.bannerContentWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bannerContent {
+  align-items: middle;
+}
