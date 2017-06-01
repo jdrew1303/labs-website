@@ -6,6 +6,7 @@ import { Banner } from './banner/'
 import { FeaturedProject } from '../components/featured-project/'
 import { MeetupEvents } from '../components/events/'
 import WhatsBrewing from '../components/whats-brewing';
+import { Footer } from '../components/footer';
 import '../css/App.css'
 
 
@@ -31,6 +32,7 @@ class App extends React.Component {
         <FeaturedProject />
         <MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />
         <WhatsBrewing />
+        <Footer />
       </div>
     );
   }
