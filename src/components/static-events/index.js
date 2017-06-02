@@ -26,7 +26,6 @@ export class StaticMeetupEvents extends React.Component {
               <Image src={calendarImage} alt="static image of the June calendar" responsive />
             </Col>
             <Col md={8}>
-              <h2>Col2</h2>
                     { this.testEvents.map(event => 
                         <StaticEventListItem event={event} key={event.id} />
                     )}
