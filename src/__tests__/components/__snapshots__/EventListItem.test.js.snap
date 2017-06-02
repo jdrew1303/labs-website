@@ -1,12 +1,3 @@
-exports[`test should render event name correctly 1`] = `
-<Unknown
-  event={
-    Object {
-      "event_name": "Understanding How Collaboration Increases Productivity",
-    }
-  } />
-`;
-
 exports[`test should render event name ucorrectly 1`] = `
 <Unknown
   event={
