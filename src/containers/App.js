@@ -28,10 +28,9 @@ class App extends React.Component {
         <Banner />
         <FeaturedProject />
         <Divider />
-        {/*<MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />*/}
         <StaticMeetupEvents />
         <Divider />
-        <MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />
+        {/*<MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />*/}
         <Divider />
         <WhatsBrewing />
         <Footer />
