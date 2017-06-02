@@ -8,15 +8,15 @@ const WhatsBrewingComponent = () => (
     <Grid>
         <Row>
             <Col md={12}>
-                <h1>What's Brewing</h1>
+                <h1>What's Brewing?</h1>
             </Col>
         </Row>
         <Row>
-            <Col md={8}>
-                <Image src={computerImage} responsive alt="What's Brewing" />
+            <Col md={6}>
+                <Image src={computerImage} responsive alt="What's Brewing?" />
             </Col>
-            <Col md={4}>
-                <p>While you’re waiting for our website to come to life, feast on some of the work we’ve already done. Check out our blog to see what’s brewing!</p>
+            <Col md={6}>
+                <h3>While you’re waiting for our website to come to life, feast on some of the work we’ve already done. Check out our blog to see what’s brewing!</h3>
                 <Button>Go to the Excella Blog</Button>
             </Col>
         </Row>
