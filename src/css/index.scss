@@ -1,0 +1,18 @@
+@import 'colors';
+@import 'fonts';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: $marydale_regular;
+}
+
+h2 {
+  font-family: $helvetica;
+  font-weight: bold;
+  color: $secondary_blue
+}

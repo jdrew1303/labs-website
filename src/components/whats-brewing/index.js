@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Grid, Row, Col, Image } from 'react-bootstrap'
 import computerImage from '../../images/computer-photo.jpeg'
+import './theme.css'
 
 const WhatsBrewingComponent = () => (
   <div id="whatsBrewing">
