@@ -16,6 +16,16 @@ export class StaticEventListItem extends React.Component {
                 <div className="eventTitle">{event.title}</div>
                 <div className="eventDetails"><em>{event.eventDateTime.toLocaleString()} &bull; {event.locationName} </em></div>
                 <div className="eventSummary">{event.summary} ...<a href={event.link} target="_blank">More</a></div>
+                { event.isExcellaSponsored &&
+                    <span>Excella Sponsored</span>
+                }
+                { event.isExcellaHosted &&
+                    <span>Excella Hosted</span>
+                }
+
+                {event.isExcellianSpeaking &&
+                    <span>Excellian Speaking</span>
+                }
             </div>
         );
     }
