@@ -7,7 +7,7 @@ import { MeetupEvents } from '../components/events/'
 import WhatsBrewing from '../components/whats-brewing';
 import { Footer } from '../components/footer';
 import { StaticMeetupEvents } from '../components/static-events';
-
+import { Divider } from '../components/divider';
 
 const mapStateToProps = state => {
   return {
@@ -27,8 +27,12 @@ class App extends React.Component {
       <div className="App">
         <Banner />
         <FeaturedProject />
+        <Divider />
         {/*<MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />*/}
         <StaticMeetupEvents />
+        <Divider />
+        <MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />
+        <Divider />
         <WhatsBrewing />
         <Footer />
       </div>
