@@ -9,10 +9,28 @@ body {
 
 h1 {
   font-family: $marydale_regular;
+  font-size: 48;
 }
 
 h2 {
   font-family: $helvetica;
+  font-size: 36;
   font-weight: bold;
-  color: $secondary_blue
+  color: $secondary_blue;
+}
+
+h3 {
+  font-family: $helvetica;
+  font-size: 24;
+}
+
+h4 {
+  font-family: $helvetica;
+  font-size: 18;
+  font-weight: bold;
+}
+
+p {
+  font-family: $helvetica;
+  font-size: 14;
 }
