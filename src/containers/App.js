@@ -30,8 +30,8 @@ class App extends React.Component {
         <Divider />
         <StaticMeetupEvents />
         <Divider />
-        {/*<MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />*/}
-        <Divider />
+        {/*<MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />
+        <Divider />*/}
         <WhatsBrewing />
         <Footer />
       </div>
