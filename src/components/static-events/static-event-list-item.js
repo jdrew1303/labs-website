@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticEvent } from './static-event-list-item';
 
 export class StaticEventListItem extends React.Component {
 
@@ -10,10 +11,7 @@ export class StaticEventListItem extends React.Component {
         const event = this.props.event;
 
         return (
-            <li>
-                <a href={event.event_url} target="_blank" >{ event.event_name }</a><br />
-                { event.group_name }
-            </li>
+            <li>{event.title}</li>
         );
     }
 }
