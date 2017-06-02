@@ -14,7 +14,7 @@ export class StaticMeetupEvents extends React.Component {
       // TODO: Real links
       new StaticEvent("Five Years of NoVA UX: A Look Back and a Look Ahead", new Date("2017-06-14T19:00:00-05:00"), "Ellucian - Reston, VA", "Join us for a special celebration of ﬁve years of NoVA UX events. The NoVA UX team will be taking a look back at some of the best events since 2008", "http://SeanKilleen.com",false, false, false,1),
       new StaticEvent("DC Full Stack Web Summit", new Date("2017-06-23T09:00:00-05:00"), "Arlington Tech eXchange - Arlington, VA", "Full day technical conference about web-scale best practices on Coding, Agile, DevOps and UI/UX with a theme of Legacy System Modernization", "http://SeanKilleen.com",true, true, true,2),
-      new StaticEvent("The STEM + Art Forum", new Date("2017-06-28T17:00:00-05:00"), "TBD", "The STEM+ Art Forum is an opportunity to harness cretive thinkers to discuss how Art and Tech can illuminate and deepen the value of technological", "http://SeanKilleen.com",true, true, true,3),
+      new StaticEvent("The STEM + Art Forum", new Date("2017-06-28T17:00:00-05:00"), "TBD", "The STEM+ Art Forum is an opportunity to harness cretive thinkers to discuss how Art and Tech can illuminate and deepen the value of technological", "http://SeanKilleen.com",true, true, false,3),
     ]  
     }
 
