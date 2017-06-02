@@ -4,6 +4,7 @@
   background-image: url('../../images/banner-bg.jpg');
   background-position: center center;
   background-size: cover;
+  padding: 0;
 }
 
 .bannerContentWrap {

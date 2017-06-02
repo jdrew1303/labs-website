@@ -1,0 +1,12 @@
+.navbar-default {
+  background-color: transparent;
+}
+
+.navbar {
+  border: none;
+}
+
+.navbar .container {
+  width: 100%;
+}
+

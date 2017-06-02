@@ -3,6 +3,7 @@ import { Button, Grid, Row, Col, Image } from 'react-bootstrap'
 import computerImage from '../../images/computer-photo.jpeg'
 
 const WhatsBrewingComponent = () => (
+  <div id="whatsBrewing">
     <Grid>
         <Row>
             <Col md={12}>
@@ -19,6 +20,7 @@ const WhatsBrewingComponent = () => (
             </Col>
         </Row>
     </Grid>
+  </div>
 )
 
 export default WhatsBrewingComponent
