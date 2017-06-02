@@ -1,5 +1,6 @@
 import React from 'react';
 import { StaticEvent } from './static-event-list-item';
+import './theme.css';
 
 export class StaticEventListItem extends React.Component {
 
@@ -13,7 +14,7 @@ export class StaticEventListItem extends React.Component {
         return (
             <div>
                 <div className="eventTitle">{event.title}</div>
-                <div className="eventDetails">EventDateTime &bull; {event.locationName} </div>
+                <div className="eventDetails"><em>EventDateTime &bull; {event.locationName} </em></div>
                 <div className="eventSummary">{event.summary} ...<a href={event.link} target="_blank">More</a></div>
             </div>
         );
