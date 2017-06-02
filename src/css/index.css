@@ -1,11 +1,15 @@
-@import './fonts.scss';
+@font-face {
+  font-family: "Marydale";
+  src: url("marydale.eot?") format("eot"), url("marydale.woff") format("woff"), url("marydale.ttf") format("truetype"), url("marydale.svg#Marydale") format("svg"); }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 h1 {
-  font-family: 'Marydale'
-}
+  font-family: Marydale, Arial; }
+
+h2 {
+  font-family: 'Helvetica';
+  font-weight: bold; }
