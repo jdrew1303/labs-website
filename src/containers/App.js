@@ -7,6 +7,7 @@ import { FeaturedProject } from '../components/featured-project/'
 import { MeetupEvents } from '../components/events/'
 import WhatsBrewing from '../components/whats-brewing';
 import { Footer } from '../components/footer';
+import { StaticMeetupEvents } from '../components/static-events';
 import '../css/App.css'
 
 
@@ -30,7 +31,8 @@ class App extends React.Component {
         <Navigation />
         <Banner />
         <FeaturedProject />
-        <MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />
+        {/*<MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />*/}
+        <StaticMeetupEvents />
         <WhatsBrewing />
         <Footer />
       </div>
