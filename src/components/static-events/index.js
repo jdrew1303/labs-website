@@ -1,5 +1,6 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
+import calendarImage from '../../images/static-calendar.png';
 
 export class StaticMeetupEvents extends React.Component {
   render(){
@@ -9,7 +10,7 @@ export class StaticMeetupEvents extends React.Component {
         <Grid>
           <Row>
             <Col md={4}>
-              <h2>Col1</h2>
+              <Image src={calendarImage} alt="static image of the June calendar" responsive />
             </Col>
             <Col md={8}>
               <h2>Col2</h2>
