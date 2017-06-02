@@ -13,8 +13,8 @@ export class MeetupEvents extends React.Component {
 
     render() {
         return (
-            <div>
-                <h2>Upcoming Meetups</h2>
+            <div id="meetups">
+                <h1>Upcoming Meetups</h1>
                 <ul>
                     { this.props.events.map(event => 
                         <EventListItem event={event} key={event.id} />

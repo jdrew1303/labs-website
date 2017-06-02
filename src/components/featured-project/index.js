@@ -5,7 +5,7 @@ import screen from '../../images/featured-project-screens.png'
 export class FeaturedProject extends React.Component {
   render() {
     return (
-      <div>
+      <div id="featured">
         <h1>Featured Project</h1>
         <Grid>
           <Row>
