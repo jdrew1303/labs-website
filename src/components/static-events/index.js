@@ -4,7 +4,7 @@ export class StaticMeetupEvents extends React.Component {
   render(){
     return (
       <div>
-        <h1>Test</h1>
+        <h1>Meet Ups and Events</h1>
       </div>
     )
   }
