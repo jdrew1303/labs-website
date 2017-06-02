@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Grid, Row, Col, Image } from 'react-bootstrap'
 import screen from '../../images/featured-project-screens.png'
-import theme from './theme.css'
+import './theme.css'
 
 export class FeaturedProject extends React.Component {
   render() {
