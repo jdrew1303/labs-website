@@ -14,7 +14,7 @@ export class StaticEventListItem extends React.Component {
         return (
             <div>
                 <div className="eventTitle">{event.title}</div>
-                <div className="eventDetails"><em>EventDateTime &bull; {event.locationName} </em></div>
+                <div className="eventDetails"><em>{event.eventDateTime.toLocaleString()} &bull; {event.locationName} </em></div>
                 <div className="eventSummary">{event.summary} ...<a href={event.link} target="_blank">More</a></div>
             </div>
         );
