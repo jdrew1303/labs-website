@@ -1,9 +1,10 @@
 .jumbotron {
   height: 100vh;
   color: #fff;
-  background-image: url('../../images/banner-bg.jpg');
+  background-image: url('../../images/hero-image-dark.JPG');
   background-position: center center;
   background-size: cover;
+  padding: 0;
 }
 
 .bannerContentWrap {

@@ -6,7 +6,7 @@ import './theme.css'
 export class FeaturedProject extends React.Component {
   render() {
     return (
-      <div className="section">
+      <div id="featured">
         <Grid>
           <Row>
             <h1>Featured Project</h1>
