@@ -9,7 +9,7 @@ export class Navigation extends React.Component {
       <Navbar collapseOnSelect>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="#">Excella Labs</a>
+          <a href="#">Excella<span>Labs</span></a>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
