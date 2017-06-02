@@ -5,8 +5,10 @@ export class Footer extends React.Component {
   render() {
     return (
       <div className="footer">
-        <p><a href="http://twitter.com/excellaco">@excellaco</a></p>
-        <p><a href="http://www.excella.com">www.excella.com</a></p>
+        <div className="container">
+          <p><a href="https://twitter.com/excellaco" target="_blank">@excellaco</a></p>
+          <p><a href="https://www.excella.com" target="_blank">www.excella.com</a></p>
+        </div>
       </div>
     )
   }

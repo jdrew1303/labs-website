@@ -1,12 +1,17 @@
 import React from 'react'
 import { Button, Grid, Row, Col, Image } from 'react-bootstrap'
 import screen from '../../images/featured-project-screens.png'
+import './theme.css'
 
 export class FeaturedProject extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Featured Project</h1>
+      <div id="featured">
+        <Grid>
+          <Row>
+            <h1>Featured Project</h1>
+          </Row>  
+        </Grid>  
         <Grid>
           <Row>
             <Col md={8}>
