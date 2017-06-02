@@ -9,23 +9,25 @@ body {
 
 h1 {
   font-family: Marydale, Arial;
-  font-size: 48; }
+  font-size: 48px; }
 
 h2 {
   font-family: Helvetica;
-  font-size: 36;
+  font-size: 36px;
   font-weight: bold;
   color: #5D87A1; }
 
 h3 {
   font-family: Helvetica;
-  font-size: 24; }
+  font-size: 24px;
+  padding-bottom: 30px; }
 
 h4 {
   font-family: Helvetica;
-  font-size: 18;
+  font-size: 18px;
   font-weight: bold; }
 
 p {
   font-family: Helvetica;
-  font-size: 14; }
+  font-size: 14px;
+  padding-bottom: 30px; }
