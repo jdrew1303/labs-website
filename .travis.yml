@@ -1,0 +1,32 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+cache:
+  directories:
+    - "node_modules"
+before_deploy:
+  - 'curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"'
+  - 'unzip awscli-bundle.zip'
+  - './awscli-bundle/install -b ~/bin/aws'
+  - 'export PATH=~/bin:$PATH'
+  - 'aws s3 rm s3://$S3_BUCKET_DEV --recursive'
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: $S3_BUCKET_DEV
+  skip_cleanup: true
+  acl: private
+  region: $AWS_DEFAULT_REGION
+  local_dir: build
+  on:
+    branch: master
+
+### CI environment variables ###
+# AWS_ACCESS_KEY
+# AWS_SECRET_ACCESS_KEY
+# AWS_ACCOUNT_ID
+# AWS_DEFAULT_REGION  
+# S3_BUCKET_DEV
+# S3_BUCKET_PROD
