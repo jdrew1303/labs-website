@@ -11,7 +11,7 @@ export class StaticMeetupEvents extends React.Component {
         super();
 
     this.testEvents = [
-      new StaticEvent("Sean test", new Date(), "Test Location", "TestGroup", "blahblahblahblabhlabhlabhlabhkaslkdfhaldiufa", "http://seankilleen.com", true, true, true)
+      new StaticEvent("Sean test", new Date(), "Test Location", "TestGroup", "blahblahblahblabhlabhlabhlabhkaslkdfhaldiufa", "http://seankilleen.com", true, true, true,123)
     ]  
     }
 
