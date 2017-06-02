@@ -5,15 +5,18 @@
   background-position: center center;
   background-size: cover;
   padding: 0;
+  overflow: hidden;
 }
 
 .bannerContentWrap {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 90%;
+  background-color: rgba(0,0,0,0.4);
 }
 
 .bannerContent {
   align-items: middle;
+  text-align: center;
 }

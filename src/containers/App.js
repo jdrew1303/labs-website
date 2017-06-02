@@ -6,7 +6,6 @@ import { FeaturedProject } from '../components/featured-project/'
 import { MeetupEvents } from '../components/events/'
 import WhatsBrewing from '../components/whats-brewing';
 import { Footer } from '../components/footer';
-import '../css/App.css'
 
 
 
