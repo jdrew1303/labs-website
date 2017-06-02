@@ -11,7 +11,11 @@ export class StaticEventListItem extends React.Component {
         const event = this.props.event;
 
         return (
-            <li>{event.title}</li>
+            <div>
+                <div>{event.title}</div>
+                <div>EventDateTime &bull; {event.locationName} </div>
+                <div>{event.summary} ...<a href={event.link} target="_blank">More</a></div>
+            </div>
         );
     }
 }

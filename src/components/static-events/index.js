@@ -27,12 +27,9 @@ export class StaticMeetupEvents extends React.Component {
             </Col>
             <Col md={8}>
               <h2>Col2</h2>
-                <ul>
                     { this.testEvents.map(event => 
                         <StaticEventListItem event={event} key={event.id} />
                     )}
-                </ul>
-
             </Col>
           </Row>
         </Grid>
