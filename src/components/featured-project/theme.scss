@@ -1,0 +1,22 @@
+@import '../../css/_colors';
+
+#featured {
+  text-align: left;
+}
+
+#featured .btn-primary {
+  background-color: $secondary_blue;
+  border-color: $secondary_blue;
+}
+
+#featured .btn-primary:hover,
+#featured .btn-primary:focus {
+  background-color: rgba(93,135,161,0.8);
+  border-color: rgba(93,135,161,0.8);
+}
+
+@media screen and (max-width: 990px) {
+  #featured .btn-primary {
+    margin-bottom: 3em;
+  }
+}

@@ -1,13 +1,22 @@
-.eventTitle{
- color:#D4711A;
- font-size:20pt;
- font-weight: bold;
-}
+.eventItem {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 10px;
+  margin-bottom: 10px; }
 
-.eventDetails{
-  
-}
+.eventTitle {
+  color: #D4711A;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px; }
 
-.eventSummary{
-  
-}
+.eventDetails,
+.eventSummary {
+  margin-bottom: 5px; }
+
+.excellaEvent {
+  color: #002D62;
+  font-weight: bold;
+  margin-right: 2em; }
+
+.excellaEvent i.fa {
+  margin-right: 0.5em; }

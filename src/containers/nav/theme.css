@@ -33,3 +33,13 @@
 .navbar-default .navbar-nav>li>a:hover {
   color: #66CBB4;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #66CBB4;
+}
+
+@media screen and (max-width: 460px) {
+  .navbar-default .navbar-brand {
+    font-size: 2em;
+  }
+}

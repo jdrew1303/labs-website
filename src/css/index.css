@@ -5,11 +5,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: Helvetica, sans-serif; }
 
 h1 {
   font-family: Marydale, Arial;
-  font-size: 48px; }
+  font-size: 48px;
+  margin-bottom: 1em; }
 
 h2 {
   font-family: Helvetica;
@@ -31,3 +32,6 @@ p {
   font-family: Helvetica;
   font-size: 14px;
   padding-bottom: 30px; }
+
+.excellaEvent {
+  font-family: Marydale, Arial, Helvetica, sans-serif; }

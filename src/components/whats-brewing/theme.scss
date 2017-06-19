@@ -1,0 +1,31 @@
+@import '../../css/colors';
+
+#whatsBrewing h3 { 
+  line-height: 1.5;
+  margin-top: 3.25em;
+}
+
+#whatsBrewing h3, 
+#whatsBrewing .btn { 
+  margin-left: 1em;
+}
+
+#whatsBrewing .btn {
+  color: $secondary_blue;
+  border-color: $secondary_blue;
+  border-radius: 0;
+  font-size: 1.25em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#whatsBrewing .btn:hover,
+#whatsBrewing .btn:focus {
+  color: $white;
+  background-color: $secondary_blue;
+  border-color: $secondary_blue;
+}
+
+@media screen and (max-width: 1199px){
+  #whatsBrewing h3 { margin-top: 1.5em; }
+}
