@@ -23,7 +23,7 @@ export class FeaturedProject extends React.Component {
                 <strong>Stack:</strong> Angular 4, Firebase, TypeScript<br />
                 <strong>Development team:</strong> Sam Blissard, Alex Hoffman, Cameron Ivey, Brendan Sawyer
               </p>
-              <Button bsStyle="primary" href="https://github.com/excellalabs/excella-retro-2" target='_blank'>Visit Project</Button>
+              <Button bsStyle="primary" href="https://github.com/excellalabs/excella-retro-2" target='_blank'>Visit Project <i className='fa fa-arrow-right' aria-hidden='true'></i></Button>
             </Col>
             <Col md={4}>
               <Image src={screen} alt="featured project" role="presentation" responsive />
