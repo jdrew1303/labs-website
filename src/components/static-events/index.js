@@ -21,7 +21,7 @@ export class StaticMeetupEvents extends React.Component {
   
   render(){
     return (
-      <div>
+      <div id="meetups">
         <Grid>
           <Row>
               <Col md={12}>
