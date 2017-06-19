@@ -17,7 +17,7 @@ const WhatsBrewingComponent = () => (
             </Col>
             <Col md={6}>
                 <h3>While you’re waiting for our website to come to life, feast on some of the work we’ve already done. Check out our blog to see what’s brewing!</h3>
-                <Button>Go to the Excella Blog</Button>
+                <Button href="https://www.excella.com/insights" target="_blank">Go to the Excella Blog</Button>
             </Col>
         </Row>
     </Grid>
