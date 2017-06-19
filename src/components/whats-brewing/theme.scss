@@ -1,11 +1,12 @@
 @import '../../css/colors';
 
-h3 { 
+#whatsBrewing h3 { 
   line-height: 1.5;
   margin-top: 3.25em;
 }
 
-h3, .btn { 
+#whatsBrewing h3, 
+#whatsBrewing .btn { 
   margin-left: 1em;
 }
 
@@ -26,5 +27,5 @@ h3, .btn {
 }
 
 @media screen and (max-width: 1199px){
-  h3 { margin-top: 1.5em; }
+  #whatsBrewing h3 { margin-top: 1.5em; }
 }
