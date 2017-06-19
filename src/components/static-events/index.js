@@ -7,9 +7,9 @@ import moment from 'moment';
 
 export class StaticMeetupEvents extends React.Component {
 
-    constructor()
+    constructor(props)
     {
-        super();
+        super(props)
 
     this.testEvents = [
       new StaticEvent("Five Years of NoVA UX: A Look Back and a Look Ahead", moment("2017-06-14T19:00:00-05:00").format("dddd, MMMM Do YYYY, h:mm a"), "Ellucian - Reston, VA", "Join us for a special celebration of ﬁve years of NoVA UX events. The NoVA UX team will be taking a look back at some of the best events since 2008", "https://www.meetup.com/nova-ux/events/239997158/",false, false, false,1),

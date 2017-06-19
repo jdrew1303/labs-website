@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { actionCreators } from '../redux/rootReducer'
 import { Banner } from './banner/'
 import { FeaturedProject } from '../components/featured-project/'
-import { MeetupEvents } from '../components/events/'
+//import { MeetupEvents } from '../components/events/'
 import WhatsBrewing from '../components/whats-brewing';
 import { Footer } from '../components/footer';
 import { StaticMeetupEvents } from '../components/static-events';

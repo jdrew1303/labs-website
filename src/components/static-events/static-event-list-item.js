@@ -1,5 +1,4 @@
 import React from 'react';
-import { StaticEvent } from './static-event-list-item';
 import './theme.css';
 
 export class StaticEventListItem extends React.Component {
