@@ -23,9 +23,18 @@
 
 .bannerContent h1 {
   font-family: "Open Sans";
+  font-size: 3em;
+  text-transform: none;
 }
 
-.bannerContent h1 span{
+.bannerContent h1 span {
   font-family: "Marydale";
   color: #EBB111;
+  font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 460px) {
+  .bannerContent h1 {
+    font-size: 2em; }
 }
