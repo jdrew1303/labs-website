@@ -1,45 +1,46 @@
 .navbar-default {
-  background-color: rgba(0,0,0,0.4);
-}
+  background-color: rgba(0, 0, 0, 0.7); }
 
 .navbar {
   border: none;
   padding: 2em;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 .navbar .container {
-  width: 100%;
-}
+  width: 100%; }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:hover { 
-  font-family:"Marydale";
+.navbar-default .navbar-brand:hover {
+  font-family: "Open Sans";
   text-transform: uppercase;
-  color: #fff;
-  font-size: 3em;
-}
+  color: #FFFFFF;
+  font-size: 3em; }
 
-.navbar-default .navbar-nav>li>a {
-  color: #fff;
-  font-size: 2em;
-}
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF;
+  font-size: 1.5em; 
+  padding-left: 2em; }
 
 .navbar-default .navbar-brand span,
 .navbar-default .navbar-brand:focus span,
 .navbar-default .navbar-brand:hover span,
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
-  color: #66CBB4;
-}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #66CBB4; }
+
+.navbar-default .navbar-brand span,
+.navbar-default .navbar-brand:focus span,
+.navbar-default .navbar-brand:hover span {
+  font-family: 'Marydale', Arial; }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #66CBB4;
-}
+  background-color: #66CBB4; }
 
 @media screen and (max-width: 460px) {
   .navbar-default .navbar-brand {
-    font-size: 2em;
-  }
+    font-size: 2em; } 
+    
+  .navbar-default .navbar-nav > li > a {
+    padding-left: 0.75em; }
 }
