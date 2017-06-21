@@ -1,7 +1,7 @@
 .jumbotron {
   height: 100vh;
   color: #fff;
-  background-image: url('../../images/hero-image-dark.JPG');
+  background-image: url('../../images/hero-image.jpg');
   background-position: center center;
   background-size: cover;
   padding: 0;
@@ -13,10 +13,28 @@
   flex-direction: column;
   justify-content: center;
   height: 90%;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.7);
 }
 
 .bannerContent {
   align-items: middle;
   text-align: center;
+}
+
+.bannerContent h1 {
+  font-family: "Open Sans";
+  font-size: 3em;
+  text-transform: none;
+}
+
+.bannerContent h1 span {
+  font-family: "Marydale";
+  color: #EBB111;
+  font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 460px) {
+  .bannerContent h1 {
+    font-size: 2em; }
 }

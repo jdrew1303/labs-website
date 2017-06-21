@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @font-face {
   font-family: "Marydale";
   src: url("marydale.eot?") format("eot"), url("marydale.woff") format("woff"), url("marydale.ttf") format("truetype"), url("marydale.svg#Marydale") format("svg"); }
@@ -8,9 +9,10 @@ body {
   font-family: Helvetica, sans-serif; }
 
 h1 {
-  font-family: Marydale, Arial;
-  font-size: 48px;
-  margin-bottom: 1em; }
+  font-family: "Open Sans";
+  font-size: 3rem;
+  margin-bottom: 1em;
+  text-transform: uppercase; }
 
 h2 {
   font-family: Helvetica;

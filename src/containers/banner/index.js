@@ -13,7 +13,7 @@ export class Banner extends React.Component {
           <Navigation />
           <div className="bannerContentWrap">
             <div className="bannerContent">
-              <h1>Because amazing things come from experimentation.</h1>
+              <h1>Because amazing things come from<br /><span>experimentation</span></h1>
             </div>
           </div>
         </Jumbotron>
