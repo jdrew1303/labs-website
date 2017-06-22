@@ -7,11 +7,6 @@ const WhatsBrewingComponent = () => (
   <div id="whatsBrewing">
     <Grid>
         <Row>
-            <Col md={12}>
-                <h1>What's Brewing?</h1>
-            </Col>
-        </Row>
-        <Row>
             <Col md={6}>
                 <Image src={computerImage} responsive alt="What's Brewing?" />
             </Col>
