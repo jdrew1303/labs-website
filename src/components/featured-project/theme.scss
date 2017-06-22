@@ -1,4 +1,5 @@
 @import '../../css/_colors';
+@import '../../css/_badge';
 
 #featured {
   text-align: left;
@@ -7,12 +8,22 @@
 #featured .btn-primary {
   background-color: $secondary_blue;
   border-color: $secondary_blue;
+  font-size: 1.25em;
 }
 
 #featured .btn-primary:hover,
 #featured .btn-primary:focus {
   background-color: rgba(93,135,161,0.8);
   border-color: rgba(93,135,161,0.8);
+}
+
+#featured .well {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#featured .badgeMargin {
+  margin-bottom: 2em;
 }
 
 @media screen and (max-width: 990px) {

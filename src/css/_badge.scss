@@ -1,0 +1,11 @@
+@import 'colors';
+
+.badge {
+  text-transform: uppercase;
+  color: $secondary_orange;
+  border: 1px solid $secondary_orange;
+  background-color: transparent;
+  border-radius: 88px;
+  padding: 10px 20px;
+  margin-right: 2em;
+}
