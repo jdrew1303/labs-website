@@ -9,13 +9,6 @@ export class FeaturedProject extends React.Component {
       <div id="featured">
         <Grid>
           <Row>
-            <Col md={12}>
-              <h1>Featured Event</h1>
-            </Col>
-          </Row>  
-        </Grid>  
-        <Grid>
-          <Row>
             <Col md={7}>
               <h2><a href="http://dcfullstack.com/" target="_blank">DC Full Stack Web Summit 2017</a></h2>
               <p><small><em>June 23rd, 2017 &#8226; Arlington Tech eXchange &#8226; Arlington, VA</em></small></p>

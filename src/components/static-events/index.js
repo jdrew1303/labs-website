@@ -24,11 +24,6 @@ export class StaticMeetupEvents extends React.Component {
       <div id="meetups">
         <Grid>
           <Row>
-              <Col md={12}>
-                <h1>Meet Ups and Events</h1>
-              </Col>
-          </Row>
-          <Row>
             <Col md={4}>
               <Image src={calendarImage} alt="static image of the June calendar" responsive />
             </Col>

@@ -1,0 +1,20 @@
+.border {
+  border-bottom: 1px solid #9C9B9E;
+}
+
+h1.section-title {
+  font-family: 'Open Sans';
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  line-height: 1.42857143;
+}
+
+a.section-link {
+  text-decoration: underline;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
