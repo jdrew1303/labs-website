@@ -8,7 +8,7 @@ import WhatsBrewing from '../components/whats-brewing';
 import { Footer } from '../components/footer';
 import { StaticMeetupEvents } from '../components/static-events';
 import { Divider } from '../components/divider';
-import SectionHeader from '../components/section-header'
+import { SectionHeader } from '../components/section-header'
 
 const mapStateToProps = state => {
   return {
