@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import './theme.css';
 
-export default class Divider extends React.Component {
+export class SectionHeader extends React.Component {
   render() {
     return (
       <Grid style={{marginTop:'100px', marginBottom:'40px'}}>
