@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @font-face {
   font-family: "Marydale";
   src: url("marydale.eot?") format("eot"), url("marydale.woff") format("woff"), url("marydale.ttf") format("truetype"), url("marydale.svg#Marydale") format("svg"); }
@@ -8,32 +8,38 @@ body {
   padding: 0;
   font-family: Helvetica, sans-serif; }
 
-h1 {
+h1, h1 a {
   font-family: "Open Sans";
-  font-size: 3rem;
+  font-size: 3.6rem;
   margin-bottom: 1em;
+  font-weight: 700;
   text-transform: uppercase; }
 
-h2 {
+h2, h2 a {
   font-family: Helvetica;
-  font-size: 36px;
+  font-size: 3rem;
   font-weight: bold;
   color: #5D87A1; }
 
-h3 {
+h3, h3 a {
   font-family: Helvetica;
-  font-size: 24px;
+  font-size: 2.4rem;
   padding-bottom: 30px; }
 
-h4 {
+h4, h4 a {
   font-family: Helvetica;
-  font-size: 18px;
+  font-size: 2rem;
   font-weight: bold; }
+
+h1 a:hover, h1 a:focus,
+h2 a:hover, h2 a:focus,
+h3 a:hover, h3 a:focus,
+h4 a:hover, h4 a:focus {
+  text-decoration: none; }
 
 p {
   font-family: Helvetica;
-  font-size: 14px;
-  padding-bottom: 30px; }
+  font-size: 1.8rem; }
 
 .excellaEvent {
   font-family: Marydale, Arial, Helvetica, sans-serif; }

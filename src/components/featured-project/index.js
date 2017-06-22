@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button, Grid, Row, Col, Image } from 'react-bootstrap'
-import screen from '../../images/featured-project-screens.png'
+import { Button, Grid, Row, Col, Image, Badge, Well } from 'react-bootstrap'
+import dcfullstack from '../../images/dcfullstack_logo.png'
 import './theme.css'
 
 export class FeaturedProject extends React.Component {
@@ -10,23 +10,32 @@ export class FeaturedProject extends React.Component {
         <Grid>
           <Row>
             <Col md={12}>
-              <h1>Featured Project</h1>
+              <h1>Featured Event</h1>
             </Col>
           </Row>  
         </Grid>  
         <Grid>
           <Row>
-            <Col md={8}>
-              <h2>Excella Retro</h2>
-              <p>Excella Retro is an app that makes it convenient for a facilitator to hold retrospectives with team members, whether they are remote or present in the room. Retro is a real-time app that negates the need of an additional screen sharing software. Its sign-up free design allows for anonymous gathering of feedback from any team member with a smartphone, tablet or computer. All members can participate in a dot voting exercise to prioritize items that needs improvement and observe action items being created based on the team’s conversation.</p>
-              <p>
-                <strong>Stack:</strong> Angular 4, Firebase, TypeScript<br />
-                <strong>Development team:</strong> Sam Blissard, Alex Hoffman, Cameron Ivey, Brendan Sawyer
+            <Col md={7}>
+              <h2><a href="http://dcfullstack.com/" target="_blank">DC Full Stack Web Summit 2017</a></h2>
+              <p><small><em>June 23rd, 2017 &#8226; Arlington Tech eXchange &#8226; Arlington, VA</em></small></p>
+              <p>Full day technical conference about web-scale best practices as it relates to Legacy System Modernization</p>
+              <Well>
+                <h4>Fixing the Ultimate Legacy System: You</h4>
+                <p>Andy Hunt, <em>author of The Pragmatic Programmer and the Agile Manifesto</em></p>
+                <h4>Explain It!</h4>
+                <p>Russ Olsen, <em>author Eloquent Ruby and Design Patterns in Ruby</em></p>
+              </Well>
+              <p className="badgeMargin">
+                <Badge>Coding</Badge>
+                <Badge>UX / UI</Badge>
+                <Badge>Dev Ops</Badge>
+                <Badge>Agile</Badge>
               </p>
-              <Button bsStyle="primary" href="https://github.com/excellalabs/excella-retro-2" target='_blank'>Visit Project <i className='fa fa-arrow-right' aria-hidden='true'></i></Button>
+              <Button bsStyle="primary" href="https://www.youtube.com/user/ExcellaConsulting" target='_blank'>Watch conference videos here <i className='fa fa-arrow-right' aria-hidden='true'></i></Button>
             </Col>
-            <Col md={4}>
-              <Image src={screen} alt="featured project" role="presentation" responsive />
+            <Col md={5}>
+              <Image src={dcfullstack} alt="featured project" role="presentation" responsive />
             </Col>
           </Row>
         </Grid>

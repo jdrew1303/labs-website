@@ -1,14 +1,31 @@
+.badge {
+  text-transform: uppercase;
+  color: #D9531E;
+  border: 1px solid #D9531E;
+  background-color: transparent;
+  border-radius: 88px;
+  padding: 10px 20px;
+  margin-right: 2em; }
+
 #featured {
   text-align: left; }
 
 #featured .btn-primary {
   background-color: #5D87A1;
-  border-color: #5D87A1; }
+  border-color: #5D87A1;
+  font-size: 1.25em; }
 
 #featured .btn-primary:hover,
 #featured .btn-primary:focus {
   background-color: rgba(93, 135, 161, 0.8);
   border-color: rgba(93, 135, 161, 0.8); }
+
+#featured .well {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+#featured .badgeMargin {
+  margin-bottom: 2em; }
 
 @media screen and (max-width: 990px) {
   #featured .btn-primary {
