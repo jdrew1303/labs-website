@@ -23,6 +23,8 @@
 #featured .well {
   margin-top: 2em;
   margin-bottom: 2em; }
+  #featured .well h3 {
+    color: #D74C4A; }
 
 #featured .badgeMargin {
   margin-bottom: 2em; }
