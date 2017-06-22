@@ -1,12 +1,20 @@
 .footer {
   background-color: #353535;
   padding: 3em 0;
+  color: white;
 }
 
 .footer .container {
-  padding-top: 3em;
+  display: flex;
+  flex:1;
+  flex-direction: row;
   padding-bottom: 1em;
-  border-bottom: 1px solid #FFFFFF;
+}
+
+.footer .container .column {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between
 }
 
 .footer > .container > p > a {
