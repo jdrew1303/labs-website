@@ -7,7 +7,6 @@ import { FeaturedProject } from '../components/featured-project/'
 import WhatsBrewing from '../components/whats-brewing';
 import { Footer } from '../components/footer';
 import { StaticMeetupEvents } from '../components/static-events';
-import { Divider } from '../components/divider';
 import { SectionHeader } from '../components/section-header'
 
 const mapStateToProps = state => {
