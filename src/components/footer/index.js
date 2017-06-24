@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/footer.css';
+import './footer.css';
 
 export class Footer extends React.Component {
   render() {
@@ -9,19 +9,23 @@ export class Footer extends React.Component {
           <div className="column">
             <div>
               <label>Stay in touch:</label>
-              <input type="text" />
+              <input type="text" placeholder="yourname@website.com" />
             </div>
             <div>
-              <p> Like what you see here? </p>
-              <p> Check out our <a href="">opportunities</a>.</p>
+              <span> Like what you see here? </span>
+            </div>
+            <div>
+              <span className="teal-text"> Check out our <a href="">opportunities</a>.</span>
             </div>
           </div>
-          <div className="column">
+          <div className="column link-block">
             <div>
               <a href="https://twitter.com/excellaco"><i className='fa fa-twitter' aria-hidden='true'></i></a>
               <a href="https://www.facebook.com/excellaconsulting/"><i className='fa fa-facebook' aria-hidden='true'></i></a>
               <a href="https://github.com/excellalabs"><i className='fa fa-github' aria-hidden='true'></i></a>
-              <p><a href="https://www.excella.com" target="_blank">www.excella.com</a></p>
+            </div>
+            <div>
+              <a href="https://www.excella.com" target="_blank">www.excella.com</a>
             </div>
           </div>
         </div>
