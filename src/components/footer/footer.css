@@ -28,3 +28,39 @@
   color: #66CBB4;
   text-decoration: none;
 }
+
+.footer label{
+  display: block;
+  font-weight: normal
+}
+.footer input {
+  width: 275px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  padding: 8px 12px;
+}
+
+.footer span.teal-text{
+  color: #66CBB4
+}
+
+.footer span.teal-text a{
+  color: #66CBB4;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer .link-block{
+  margin-top: 35px
+}
+
+.footer .link-block div{
+  text-align: center
+}
+
+.footer .link-block a{
+  font-family: "Marydale";
+  color: white;
+  font-size: 18pt;
+  padding: 0px 10px
+}
