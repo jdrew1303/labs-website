@@ -8,6 +8,7 @@ import Talks from '../components/talks';
 import { Footer } from '../components/footer';
 import { StaticMeetupEvents } from '../components/static-events';
 import { SectionHeader } from '../components/section-header'
+import { StaticBlogPosts } from '../components/static-blogs';
 
 const mapStateToProps = state => {
   return {
@@ -35,6 +36,7 @@ class App extends React.Component {
         <SectionHeader sectionTitle={"HERE’S WHAT WE'RE TALKING ABOUT"} linkText="check out our other talks" linkURL="https://www.youtube.com/user/ExcellaConsulting" />
         <Talks />
         <SectionHeader sectionTitle={"HERE’S WHAT WE'RE WRITING ABOUT"} linkText="check out our other blog posts" linkURL="http://www.excella.com/insights" />
+        <StaticBlogPosts />
         <Footer />
       </div>
     );
