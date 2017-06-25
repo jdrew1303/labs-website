@@ -58,7 +58,7 @@ export class StaticBlogPosts extends React.Component {
         <Grid>
           <Row>
             { this.blogPosts.map(post => 
-              <Col md={3} key={post.id}>
+              <Col sm={6} lg={3} key={post.id}>
                 <Panel>
                   {this._StaticBlogPostItem(post)}
                 </Panel>
