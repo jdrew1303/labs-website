@@ -1,20 +1,41 @@
+#blog-posts .blogItem {
+  min-height: 250px;
+}
+
+#blog-posts a:hover,
+#blog-posts a:focus {
+  text-decoration: none;
+}
+
 #blog-posts h2.blog-title {
-  margin: 0px;
+  margin: 0;
+  font-weight: 400;
+}
+
+#blog-posts h2.blog-title:hover,
+#blog-posts h2.blog-title:focus {
+  color: #23527c;
 }
 
 #blog-posts h3.author {
   color: #D4711A;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 5px;
+  margin-top: 20px;
   margin-bottom: 15px;
-  padding: 0px; 
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+#blog-posts h3.author:hover,
+#blog-posts h3.author:focus {
+  color: #D9531E;
 }
 
 #blog-posts .badge {
   margin: 20px 0px;
   position: absolute;
-  bottom: 0
+  bottom: 20px;
 }
 
 

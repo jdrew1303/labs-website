@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Col, Badge } from 'react-bootstrap';
+import { Grid, Row, Col, Badge, Panel } from 'react-bootstrap';
 import { StaticPost } from './static-post';
 import './theme.css';
 
@@ -11,11 +11,11 @@ export class StaticBlogPosts extends React.Component {
 
     this.blogPosts = [
       new StaticPost(
-        "How to Create a System Model", 
-        "https://www.excella.com/insights/how-to-create-a-system-model", 
-        "Julie Wyman", 
-        "https://www.excella.com/insights/author/julie-wyman", 
-        "AGILE",
+        "Three Reasons Ionic Made Building a Mobile App Incredibly Simple", 
+        "https://www.excella.com/insights/three-reasons-ionic-made-building-a-mobile-app-incredibly-simple", 
+        "Kevin Groat", 
+        "https://www.excella.com/insights/author/kgroat", 
+        "Coding",
         1),
       new StaticPost(
         "Should my Organization Invest in Onboarding?", 
@@ -42,7 +42,7 @@ export class StaticBlogPosts extends React.Component {
 
   _StaticBlogPostItem = (post) => {
     return(
-      <div className='blogItem' style={{minHeight:'250px'}}>
+      <div className='blogItem'>
         <div style={{marginBottom:'60px'}}>
           <a href={post.link}><h2 className="blog-title">{post.title}</h2></a>
           <a href={post.authorLink}><h3 className="author">{post.author}</h3></a>
@@ -59,7 +59,9 @@ export class StaticBlogPosts extends React.Component {
           <Row>
             { this.blogPosts.map(post => 
               <Col md={3} key={post.id}>
-                {this._StaticBlogPostItem(post)}
+                <Panel>
+                  {this._StaticBlogPostItem(post)}
+                </Panel>
               </Col>
             )}
           </Row>
