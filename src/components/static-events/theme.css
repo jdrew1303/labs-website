@@ -13,10 +13,12 @@
 .eventSummary {
   margin-bottom: 5px; }
 
-.excellaEvent {
-  color: #161962;
-  font-weight: bold;
-  margin-right: 2em; }
+h2.excellaEventText {
+  display: inline-block;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin: 10px 20px 10px 0px
+}
 
 .excellaEvent i.fa {
   margin-right: 0.5em; }
