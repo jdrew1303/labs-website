@@ -14,6 +14,7 @@ export class FeaturedProject extends React.Component {
               <p><small><em>June 23rd, 2017 &#8226; Arlington Tech eXchange &#8226; Arlington, VA</em></small></p>
               <p>Full day technical conference about web-scale best practices as it relates to Legacy System Modernization</p>
               <Well>
+                <h3>Keynotes:</h3>
                 <h4>Fixing the Ultimate Legacy System: You</h4>
                 <p>Andy Hunt, <em>author of The Pragmatic Programmer and the Agile Manifesto</em></p>
                 <h4>Explain It!</h4>

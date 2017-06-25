@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 h1, h1 a {
   font-family: "Open Sans";
@@ -16,18 +16,19 @@ h1, h1 a {
   text-transform: uppercase; }
 
 h2, h2 a {
-  font-family: Helvetica;
+  font-family: "Open Sans";
   font-size: 3rem;
   font-weight: bold;
   color: #5D87A1; }
 
 h3, h3 a {
-  font-family: Helvetica;
+  font-family: "Open Sans";
   font-size: 2.4rem;
-  padding-bottom: 30px; }
+  padding-bottom: 15px;
+  font-weight: bold; }
 
 h4, h4 a {
-  font-family: Helvetica;
+  font-family: "Open Sans";
   font-size: 2rem;
   font-weight: bold; }
 
@@ -38,8 +39,8 @@ h4 a:hover, h4 a:focus {
   text-decoration: none; }
 
 p {
-  font-family: Helvetica;
+  font-family: "Open Sans";
   font-size: 1.8rem; }
 
 .excellaEvent {
-  font-family: Marydale, Arial, Helvetica, sans-serif; }
+  font-family: Marydale, Arial, "Open Sans", sans-serif; }
