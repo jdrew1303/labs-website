@@ -31,11 +31,25 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "image:build": "docker build . -t duluca/excellalabs",
+    "image:run": "docker run -p 8080:3000 duluca/excellalabs",
+    "image:publish": "docker push duluca/excellalabs"
   },
   "authors": [
     "Doguhan Uluca<doguhan.uluca@excella.com>",
     "Sean Killeen<sean.killeen@excella.com>",
     "Stephen Brody<stephen.brody@excella.com>"
-  ]
+  ],
+  "description": "Future home of ExcellaLabs.com   #### [Production URL on Amazon S3](http://excellalabs.s3-website-us-east-1.amazonaws.com) #### [Development URL on Amazon S3](http://excellalabs.dev.s3-website-us-east-1.amazonaws.com/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/excellalabs/labs-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/excellalabs/labs-website/issues"
+  }
 }
