@@ -40,11 +40,12 @@
   padding: 8px 12px;
 }
 
-.footer span.teal-text{
+.footer h3.teal-text{
+  margin-top: 0;
   color: #66CBB4
 }
 
-.footer span.teal-text a{
+.footer h3.teal-text a{
   color: #66CBB4;
   font-weight: bold;
   text-decoration: underline;

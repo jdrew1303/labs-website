@@ -8,11 +8,8 @@ const Talks = () => (
         <Row>
             <Col md={5}>
                 <h2>Angular vs React: An Out-of-the-Box Comparison</h2>
-                <a href="https://www.excella.com/insights/author/doguhan-uluca">
-                    <h3 className="speakerName">
-                        DOGUHAN ULUCA
-                    </h3>
-                </a>
+
+                <h3 className="speakerName"><a href="https://www.excella.com/insights/author/doguhan-uluca" target="_blank" className="eventTitle">DOGUHAN ULUCA</a></h3>
                 <p>
                     With React gaining so much popularity, while Angular hit the reset button -- the question is on the minds of many developers: Angular vs React, which one is better? Hear Doguhan Uluca's CodeStock 2017 talk to understand the pros and cons of both frameworks and how they work, so you can make your own mind up.
                 </p>
