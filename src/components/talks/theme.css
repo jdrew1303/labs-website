@@ -1,11 +1,8 @@
 #talks .badge {
-  margin: 20px 0px
-}
+  margin: 20px 0px; }
 
 #talks h2 {
-  margin: 0px;
-
-}
+  margin: 0px; }
 
 #talks h3.speakerName {
   color: #D4711A;
@@ -13,14 +10,14 @@
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 15px;
-  padding: 0px; 
-
-}
+  padding: 0px; }
 
 #talks .btn {
-  padding: 5px 25px
-}
+  padding: 5px 25px; }
 
 @media screen and (max-width: 1199px) {
   #talks h3 {
     margin-top: 1.5em; } }
+
+.speakerName {
+  color: #D4711A; }

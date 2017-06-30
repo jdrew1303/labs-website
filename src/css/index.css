@@ -44,3 +44,35 @@ p {
 
 .excellaEvent {
   font-family: Marydale, Arial, "Open Sans", sans-serif; }
+
+.btn-primary {
+  background-color: #5D87A1;
+  border-color: #5D87A1;
+  font-size: 1.25em;
+  border: none; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: rgba(93, 135, 161, 0.8);
+  border-color: rgba(93, 135, 161, 0.8); }
+
+.badgeMargin {
+  margin-bottom: 2em; }
+
+.well {
+  border: none !important; }
+
+.section-link, .eventMoreLink {
+  color: #5D87A1; }
+
+h2 a:hover {
+  color: #23527c; }
+
+h3 a:hover, h4 a:hover {
+  color: #D9531E; }
+
+.fa-twitter:hover, .fa-facebook:hover, .fa-github:hover, .excellaLink:hover {
+  color: #66CBB4; }
+
+input {
+  color: #353535; }

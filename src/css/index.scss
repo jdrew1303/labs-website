@@ -50,3 +50,50 @@ p {
 .excellaEvent {
   font-family: $marydale_regular, $open_sans, sans-serif;
 }
+
+.btn-primary {
+  background-color: $secondary_blue;
+  border-color: $secondary_blue;
+  font-size: 1.25em;
+  border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: rgba(93,135,161,0.8);
+  border-color: rgba(93,135,161,0.8);
+}
+
+.badgeMargin {
+  margin-bottom: 2em;
+}
+
+.well {
+  border: none !important;
+}
+
+.section-link, .eventMoreLink {
+  color: $secondary_blue;
+}
+
+h2{
+  a:hover {
+    color: $secondary_blue_hover;
+  }
+}
+
+h3, h4 {
+  a:hover {
+    color: $orange_hover;
+  }
+}
+
+.fa-twitter, .fa-facebook, .fa-github, .excellaLink {
+  &:hover {
+    color: $bright_teal;
+  }
+}
+
+input {
+  color: $dark_gray;
+}

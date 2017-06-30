@@ -26,9 +26,6 @@
   #featured .well h3 {
     color: #D74C4A; }
 
-#featured .badgeMargin {
-  margin-bottom: 2em; }
-
 @media screen and (max-width: 990px) {
   #featured .btn-primary {
     margin-bottom: 3em; } }
