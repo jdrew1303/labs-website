@@ -18,7 +18,7 @@ export class Navigation extends React.Component {
           <NavItem eventKey={1} onClick={() => window.location.hash='featured'} >Featured</NavItem>
           <NavItem eventKey={2} onClick={() => window.location.hash='events'}>Events</NavItem>
           <NavItem eventKey={3} onClick={() => window.location.hash='talks'}>Talks</NavItem>
-          <NavItem eventKey={4} onClick={() => window.location.hash='blog'}>Blog</NavItem>
+          <NavItem eventKey={4} onClick={() => window.location.hash='blog-posts'}>Blog</NavItem>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

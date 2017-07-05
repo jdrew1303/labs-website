@@ -15,14 +15,14 @@ export class Footer extends React.Component {
               <h4> Like what you see here? </h4>
             </div>
             <div>
-              <h3 className="teal-text"> Check out our <a href="">opportunities</a></h3>
+              <h3 className="teal-text"> Check out our <a href="https://www.excella.com/careers" target="_blank">opportunities</a></h3>
             </div>
           </div>
           <div className="column link-block">
             <div>
-              <a href="https://twitter.com/excellaco"><i className='fa fa-twitter' aria-hidden='true'></i></a>
-              <a href="https://www.facebook.com/excellaconsulting/"><i className='fa fa-facebook' aria-hidden='true'></i></a>
-              <a href="https://github.com/excellalabs"><i className='fa fa-github' aria-hidden='true'></i></a>
+              <a href="https://twitter.com/excellaco" target="_blank"><i className='fa fa-twitter' aria-hidden='true'></i></a>
+              <a href="https://www.facebook.com/excellaconsulting/" target="_blank"><i className='fa fa-facebook' aria-hidden='true'></i></a>
+              <a href="https://github.com/excellalabs" target="_blank"><i className='fa fa-github' aria-hidden='true'></i></a>
             </div>
             <div>
               <a className="excellaLink" href="https://www.excella.com" target="_blank">www.excella.com</a>
