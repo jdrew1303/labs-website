@@ -32,9 +32,15 @@
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "image:build": "docker build . -t duluca/excellalabs",
-    "image:run": "docker run -p 8080:3000 duluca/excellalabs",
-    "image:publish": "docker push duluca/excellalabs"
+    "aws:login": "aws ecr get-login --no-include-email --region us-east-1",
+    "image:build": "npm run build && docker build -t excella-labs .",
+    "image:run": "docker run -p 8080:3000 excella-labs",
+    "image:tag": "docker tag excella-labs:latest 090999229429.dkr.ecr.us-east-1.amazonaws.com/excella-labs:latest",
+    "image:publish": "docker push 090999229429.dkr.ecr.us-east-1.amazonaws.com/excella-labs:latest",
+    "aws:release": "aws ecs run-task --cluster efds-cluster --task-definition efds-task-definition-front-end:1 --placement-constraints type=\"memberOf\",expression=\"attribute:EFDS_Server == Front_End\"",
+    "aws:stop_instance": "aws ecs stop-task --cluster efds-cluster --task ac1a33af-134d-4387-9356-081d91a3e549",
+    "aws:describe": "aws ecs describe-tasks --cluster efds-cluster --task ac1a33af-134d-4387-9356-081d91a3e549",
+    "aws:list": "aws ecs list-tasks --cluster efds-cluster"
   },
   "authors": [
     "Doguhan Uluca<doguhan.uluca@excella.com>",
