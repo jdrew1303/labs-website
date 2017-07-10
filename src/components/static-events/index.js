@@ -34,7 +34,7 @@ export class StaticMeetupEvents extends React.Component {
         2),
       new StaticEvent(
         "Empathy as a Service", 
-        moment("2017-07-19T09:00:00-06:30:00").format("MMMM Do YYYY, h:mm a"), 
+        moment("2017-07-19T09:00:00-06:30").format("MMMM Do YYYY, h:mm a"), 
         "Arlington Tech eXchange - Arlington, VA", 
         "This talk will begin with an overview of key statistics about mental wellness, followed by the efforts of the non-profit organization", 
         "https://www.meetup.com/TechTalkDC/events/240939380/",
@@ -48,7 +48,7 @@ export class StaticMeetupEvents extends React.Component {
   
   render(){
     return (
-      <div id="meetups">
+      <div id="events">
         <Grid>
           <Row>
             <Col md={4}>
