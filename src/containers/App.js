@@ -4,11 +4,12 @@ import { actionCreators } from '../redux/rootReducer'
 import { Banner } from './banner/'
 import { FeaturedProject } from '../components/featured-project/'
 //import { MeetupEvents } from '../components/events/'
-import Talks from '../components/talks';
-import { Footer } from '../components/footer';
-import { StaticMeetupEvents } from '../components/static-events';
+import About from '../components/about'
+import Talks from '../components/talks'
+import { Footer } from '../components/footer'
+import { StaticMeetupEvents } from '../components/static-events'
 import { SectionHeader } from '../components/section-header'
-import { StaticBlogPosts } from '../components/static-blogs';
+import { StaticBlogPosts } from '../components/static-blogs'
 
 const mapStateToProps = state => {
   return {
@@ -27,6 +28,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Banner />
+        <SectionHeader sectionTitle={"ABOUT"} />
+        <About />
         <SectionHeader sectionTitle={"FEATURED EVENT"} />
         <FeaturedProject />
         <SectionHeader sectionTitle={"HERE’S WHAT’S HAPPENING"} />
