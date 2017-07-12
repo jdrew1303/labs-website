@@ -26,7 +26,7 @@ export class FeaturedProject extends React.Component {
                 <Badge>Dev Ops</Badge>
                 <Badge>Agile</Badge>
               </p>
-              <Button bsStyle="primary" href="https://www.youtube.com/user/ExcellaConsulting" target='_blank'>watch conference videos here <i className='fa fa-arrow-right' aria-hidden='true'></i></Button>
+              <Button bsStyle="primary" href="https://www.youtube.com/playlist?list=PLtevgo7IoQiwvQ6GzkMGYEpZ2yRqX57bj" target='_blank'>watch conference videos here <i className='fa fa-arrow-right' aria-hidden='true'></i></Button>
             </Col>
             <Col md={5}>
               <Image src={dcfullstack} alt="featured project" role="presentation" responsive />
