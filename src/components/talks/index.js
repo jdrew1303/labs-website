@@ -19,7 +19,7 @@ const Talks = () => (
                 <Button bsStyle="primary" href="https://www.youtube.com/watch?v=IQr5STWB_HM&feature=youtu.be" target='_blank'>watch it here <i className='fa fa-arrow-right' aria-hidden='true'></i></Button>
             </Col>
             <Col md={7}>
-                {/*<iframe width="640" height="360" src="https://www.youtube.com/embed/IQr5STWB_HM?rel=0&amp;showinfo=0" frameBorder="0" allowFullScreen style={{border: 0, padding: 0, margin: 0}}></iframe>*/}
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/IQr5STWB_HM?rel=0&amp;showinfo=0" frameBorder="0" allowFullScreen style={{border: 0, padding: 0, margin: 0}}></iframe>
             </Col>
         </Row>
     </Grid>

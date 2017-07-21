@@ -1,21 +1,26 @@
-# Excella Labs Website [ ![Codeship Status for excellalabs/labs-website](https://app.codeship.com/projects/66fa21c0-df4a-0134-e2f2-621d4ad2ab17/status?branch=master)](https://app.codeship.com/projects/204888)
-Future home of ExcellaLabs.com
-#### [Production URL on Amazon S3](http://excellalabs.s3-website-us-east-1.amazonaws.com)
-#### [Development URL on Amazon S3](http://excellalabs.dev.s3-website-us-east-1.amazonaws.com/)
+# Excella Labs Website
 
 ## Getting started
 After cloning the repository, run the following commands:
 * `npm install` -- this will install the app's dependencies
 * `npm start` -- this will bundle everything, start the dev and json servers, and open your default browser to the app
 
-## Publishing from Laptop
+## Building and Testing
+* `npm run image:build` to build the Docker image
+* `npm run image:debug` to test the Docker image
+
+## Publishing Manually
+> Below instruction have not been tested on a Windows environment
+* Create `.env` file and set `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`
+  * Sample `.env` file:
+  ```Bash
+    AWS_ACCESS_KEY_ID=your_own_key_id
+    AWS_SECRET_ACCESS_KEY=your_own_secret_key
+  ```
 * Install AWS CLI
   * Mac: `brew install awscli`
 * Log in to AWS CLI with your credentials
   * Run `aws configure`
   * You'll need your Access Key ID and Secret Access Key
   * Default region name: us-east-1
-* `npm run aws:login` to get the Docker login statement, copy-paste and run the statement
-* `npm run image:build` to build the Docker image
-* `npm run image:tag` to properly mark the image (currently only latest is used, but staging and prod labels can determine future staging and prod destinations)
-* `npm run image:publish` to publish the image to the ECS repository (then the ECS instance needs to be cycled on AWS GUI to make this image go live -- scripts for doing this from the CLI is being worked on)
+* `npm run aws:publish` to configure Docker with aws, publish your latest image build and release it on ECS

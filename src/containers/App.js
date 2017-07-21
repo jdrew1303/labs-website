@@ -32,8 +32,8 @@ class App extends React.Component {
         <About />
         <SectionHeader sectionTitle={"FEATURED EVENT"} />
         <FeaturedProject />
-        <SectionHeader sectionTitle={"HERE’S WHAT’S HAPPENING"} />
-        <StaticMeetupEvents />
+        {/* <SectionHeader sectionTitle={"HERE’S WHAT’S HAPPENING"} />
+        <StaticMeetupEvents /> */}
         {/*<MeetupEvents events={this.props.events} setEvents={this.props.setEvents} />
         <Divider />*/}
         <SectionHeader sectionTitle={"HERE’S WHAT WE'RE TALKING ABOUT"} linkText="check out our other talks" linkURL="https://www.youtube.com/user/ExcellaConsulting" />
