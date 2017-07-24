@@ -7,9 +7,9 @@ const About = () => {
   <Grid>
     <Row>
       <Col sm={12} className="about-labs">
-        <h2>Welcome to ExcellaLabs by Excella Consulting</h2>
-        <p>Labs is where we experiment with new ideas and technologies and tell the community about our experiences, as such things may not always work or look their best.</p>
-        <p>If you’re looking for Excella’s Consulting and Training service head over to <a href="https://excella.com"><em>Excella.com</em></a></p>
+        <h2>Welcome to Excella Labs by Excella Consulting</h2>
+        <p>Excella Labs is a place for Excella’s technologists to share the new and experimental projects we're working on.</p>
+        <p>Want to learn more about Excella’s service offerings, Agile training capabilities, or career opportunities? Visit <a href="https://excella.com"><em>excella.com</em></a>.</p>
       </Col>
     </Row>
   </Grid>
