@@ -22,12 +22,12 @@
     "image:build": "npm run build && npm run test && with-package docker image build . -t pkg.imageRepo:latest",
     "image:run": "npm run image:clean && npm run image:runHelper",
     "image:runHelper": "with-package docker run --name pkg.imageName -d -p pkg.imagePort:3000 pkg.imageRepo",
-    "image:publish": "with-package docker image push pkg.imageRepo",
+    "image:publish": "with-package docker image push pkg.imageRepo:latest",
     "image:clean": "with-package docker rm -f pkg.imageName || true",
     "image:taillogs": "with-package docker logs -f pkg.imageName",
     "image:debug": "npm run image:build && npm run image:run && sleep 1 && with-package open 'http://localhost:pkg.imagePort' && npm run image:taillogs",
     "aws:login": "AWS_REGION=$(with-package echo 'pkg.awsRegion' | tail -1 | awk '{print $NF}') && eval $(aws ecr get-login --no-include-email --region $AWS_REGION)",
-    "aws:release": "env-cmd ./.env with-package ecs-task-deploy -r 'pkg.awsRegion' -c 'pkg.awsEcsCluster' -n 'pkg.awsService' -i 'pkg.imageRepo:latest'",
+    "aws:release": "with-package docker run --env-file ./.env silintl/ecs-deploy -c pkg.awsEcsCluster -n pkg.awsService -i pkg.imageRepo:latest -r pkg.awsRegion --timeout 600",
     "aws:publish": "npm run aws:login && npm run image:publish && npm run aws:release"
   },
   "dependencies": {
@@ -43,7 +43,6 @@
   "devDependencies": {
     "concurrently": "^3.4.0",
     "cross-env": "^5.0.1",
-    "ecs-task-deploy": "^1.1.0",
     "env-cmd": "^5.1.0",
     "eslint": "^3.16.1",
     "eslint-plugin-react": "^6.10.0",
@@ -58,7 +57,7 @@
     "Sean Killeen<sean.killeen@excella.com>",
     "Stephen Brody<stephen.brody@excella.com>"
   ],
-  "description": "Future home of ExcellaLabs.com   #### [Production URL on Amazon S3](http://excellalabs.s3-website-us-east-1.amazonaws.com) #### [Development URL on Amazon S3](http://excellalabs.dev.s3-website-us-east-1.amazonaws.com/)",
+  "description": "Future home of ExcellaLabs.com #### [Production URL](https://excellalabs.com/)",
   "main": "index.js",
   "repository": {
     "type": "git",
