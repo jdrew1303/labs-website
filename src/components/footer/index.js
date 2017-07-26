@@ -40,7 +40,7 @@ export class Footer extends React.Component {
             <div>
               <div id="mc_embed_signup">
                 <form
-                  action="//excella.us12.list-manage.com/subscribe/post?u=f532a60ec10561bcd92e0905e&amp;id=3714d81467"
+                  action="//excella.us12.list-manage.com/subscribe/post?u=f532a60ec10561bcd92e0905e&amp;id=bc8c5285cc"
                   method="post"
                   id="mc-embedded-subscribe-form"
                   name="mc-embedded-subscribe-form"
