@@ -6,6 +6,7 @@
 - ReactJS
 - Express
 - Node
+- Alpine Linux
 
 ## DevOps Stack
 - npm scripts to build ReactJS app leveraging `react-scripts`
@@ -20,7 +21,7 @@
   - Four containers running during blue/green deployment
 - Lot's of headroom for auto-scaling setup and running more experimental apps -- see performance numbers below
 - Domain and SSL certificated hosted using Route53
-- HTTP/HTTPS routing managed by ALB, including SSL cert application
+- HTTP/HTTPS routing and reverse proxy managed by ALB, including SSL cert application
 - HTTP -> HTTPS routing enforced by [minimal-node-web-server](https://hub.docker.com/r/duluca/minimal-node-web-server/)
   
 ## Performance Numbers
