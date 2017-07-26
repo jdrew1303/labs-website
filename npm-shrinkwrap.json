@@ -2,6 +2,11 @@
   "name": "labs-website",
   "version": "1.0.0",
   "dependencies": {
+    "jquery": {
+      "version": "3.2.1",
+      "from": "jquery@latest",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz"
+    },
     "moment": {
       "version": "2.18.1",
       "from": "moment@https://registry.npmjs.org/moment/-/moment-2.18.1.tgz",

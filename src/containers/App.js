@@ -7,7 +7,7 @@ import { FeaturedProject } from '../components/featured-project/'
 import About from '../components/about'
 import Talks from '../components/talks'
 import { Footer } from '../components/footer'
-import { StaticMeetupEvents } from '../components/static-events'
+// import { StaticMeetupEvents } from '../components/static-events'
 import { SectionHeader } from '../components/section-header'
 import { StaticBlogPosts } from '../components/static-blogs'
 

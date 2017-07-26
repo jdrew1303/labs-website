@@ -31,6 +31,7 @@
     "aws:publish": "npm run aws:login && npm run image:publish && npm run aws:release"
   },
   "dependencies": {
+    "jquery": "^3.2.1",
     "moment": "^2.18.1",
     "react": "^15.4.2",
     "react-bootstrap": "^0.31.0",
