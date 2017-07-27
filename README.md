@@ -7,6 +7,11 @@ evolve, demonstrating React and JS best practices.
 
 ![Excella Labs Website](./ExcellaLabsBanner.jpg)
 
+## Process & Contributions
+- GitHub issues are used to manage bugs, new features and tasks
+- Scrum board view is generated from GitHub issues on [Waffle.io](https://waffle.io/excellalabs/labs-website)
+- Feel free to submit updates or new features by create a pull request
+
 ## Tech Stack and Architecture
 - `create-react-app`
 - ReactJS
