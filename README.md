@@ -1,6 +1,12 @@
 # Excella Labs Website
 > Excella Labs is a place for Excella’s technologists to share the new and experimental projects we're working on.
 
+The Excella Labs project is an experiment in and of itself, intent on aggregating Excella's new and upcoming projects, meetups, blog posts, and more 
+from our various microservices via RESTful apis. Built on a foundation of `create-react-app`, `Redux`, and `Jest`, this static React app will continually 
+evolve, demonstrating React and JS best practices.
+
+![Excella Labs Website](./ExcellaLabsBanner.jpg)
+
 ## Tech Stack and Architecture
 - `create-react-app`
 - ReactJS
@@ -25,7 +31,7 @@
 - HTTP -> HTTPS routing enforced by [minimal-node-web-server](https://hub.docker.com/r/duluca/minimal-node-web-server/)
   
 ## Performance Numbers
-- Dokcer Container image size ~60mb
+- Docker Container image size ~60mb
 - RAM usage at idle ~65mb per container
 - ~2,200 user per second, Cluster utilization: 6.6% cpu, 1.5% mem
 - TODO: Further optimize throughput and latency by hosting image assets on S3 and utilizing CloudFront for caching static assets
