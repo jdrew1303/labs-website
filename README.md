@@ -10,7 +10,25 @@ evolve, demonstrating React and JS best practices.
 ## Process & Contributions
 - GitHub issues are used to manage bugs, new features and tasks
 - Scrum board view is generated from GitHub issues on [Waffle.io](https://waffle.io/excellalabs/labs-website)
-- Feel free to submit updates or new features by create a pull request
+### How Do We Do Scrum using GitHub & Waffle?
+- Sprints and Releases are created as milestones in GitHub
+- Scrum board on Waffle can be filtered by milestone to get a sprint/release specific view
+- Issues can be assigned story-points on Waffle
+- Waffle maintains order of issues on the board, which indicates priority
+- As card are dragged and dropped in Waffle, GitHub labels are add/removed to/from issues accordingly.
+- If labels are added to issues from GitHub or the command line, cards are moved to the correct column in Waffle.
+
+### Process
+> The process is suggested as a series of columns in Waffle as labels applied GitHub issues.
+- *Backlog:* Any open issues automatically show up in this column. Filter the board by milestone to see a sprint/release backlog. Order of cards indicate priority.
+- *In Analysis/Design:* Place issues that are under active analysis or UI/UX design.
+- *In Progress:* Let others know you're working on an issue by dragging it to In Progress.
+- *Resolved:* When development of an issue is completed move it to this column, so testers or Product Owner can review.
+- *In Review:* Move issues in active review to this column. If approved move it Done, if not back to the Backlog with the 'failed' label attached to it.
+- *Done:* Closed issues are shown in this column. Drag issues here to close them.
+
+### Contribute
+- Feel free to submit updates or new features by creating a pull request
 
 ## Tech Stack and Architecture
 - `create-react-app`
