@@ -5,9 +5,6 @@
 }
 
 .footer .container {
-  display: flex;
-  flex:1;
-  flex-direction: row;
   padding-bottom: 1em;
 }
 
@@ -39,6 +36,11 @@
   padding: 8px 12px;
 }
 
+.footer .excella-opportunities {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .footer h3.teal-text{
   margin-top: 0;
   color: #66CBB4
@@ -63,4 +65,10 @@
   color: white;
   font-size: 18pt;
   padding: 0px 10px
+}
+
+@media screen and (max-width: 460px) {
+  .footer .excella-opportunities {
+    text-align: center;
+  }
 }

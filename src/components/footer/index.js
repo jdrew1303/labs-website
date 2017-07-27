@@ -1,4 +1,5 @@
 import React from 'react';
+import { Grid, Row, Col } from 'react-bootstrap';
 import './footer.css';
 import jQuery from 'jquery';
 
@@ -32,12 +33,10 @@ export class Footer extends React.Component {
   }
   render() {
     return (
-      <div className="footer" style={{
-        margin: '50px 0 0 0'
-      }} ref={el => (this.instance = el)}>
-        <div className="container">
-          <div className="column">
-            <div>
+      <div className="footer" style={{ margin: '50px 0 0 0' }} ref={el => (this.instance = el)}>
+        <Grid>
+          <Row>
+            <Col md={6}>
               <div id="mc_embed_signup">
                 <form
                   action="//excella.us12.list-manage.com/subscribe/post?u=f532a60ec10561bcd92e0905e&amp;id=bc8c5285cc"
@@ -81,36 +80,34 @@ export class Footer extends React.Component {
                   </div>
                 </form>
               </div>
-            </div>
-            <div>
-              <h4>
-                Like what you see here?
-              </h4>
-            </div>
-            <div>
-              <h3 className="teal-text">
-                Check out our
-                <a href="https://www.excella.com/careers" target="_blank" style={{marginLeft: 7}}>opportunities</a>
-              </h3>
-            </div>
-          </div>
-          <div className="column link-block">
-            <div>
-              <a href="https://twitter.com/excellaco" target="_blank">
-                <i className='fa fa-twitter' aria-hidden='true'></i>
-              </a>
-              <a href="https://www.facebook.com/excellaconsulting/" target="_blank">
-                <i className='fa fa-facebook' aria-hidden='true'></i>
-              </a>
-              <a href="https://github.com/excellalabs" target="_blank">
-                <i className='fa fa-github' aria-hidden='true'></i>
-              </a>
-            </div>
-            <div>
-              <a className="excellaLink" href="https://www.excella.com" target="_blank">www.excella.com</a>
-            </div>
-          </div>
-        </div>
+              <div className="excella-opportunities">
+                <h4>Like what you see here?</h4>
+                <h3 className="teal-text">
+                  Check out our
+                  <a href="https://www.excella.com/careers" target="_blank" style={{marginLeft: 7}}>opportunities</a>
+                </h3>
+              </div>
+            </Col>
+            <Col md={3} mdOffset={3}>
+              <div className="link-block">
+                <div>
+                  <a href="https://twitter.com/excellaco" target="_blank">
+                    <i className='fa fa-twitter' aria-hidden='true'></i>
+                  </a>
+                  <a href="https://www.facebook.com/excellaconsulting/" target="_blank">
+                    <i className='fa fa-facebook' aria-hidden='true'></i>
+                  </a>
+                  <a href="https://github.com/excellalabs" target="_blank">
+                    <i className='fa fa-github' aria-hidden='true'></i>
+                  </a>
+                </div>
+                <div>
+                  <a className="excellaLink" href="https://www.excella.com" target="_blank">www.excella.com</a>
+                </div>
+              </div>
+            </Col> 
+          </Row>
+        </Grid>
       </div>
     )
   }
