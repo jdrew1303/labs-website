@@ -10,7 +10,7 @@ evolve, demonstrating React and JS best practices.
 ## Process & Contributions
 - GitHub issues are used to manage bugs, new features and tasks
 - Scrum board view is generated from GitHub issues on [Waffle.io](https://waffle.io/excellalabs/labs-website)
-### How Do We Do Agile Scrum using GitHub & Waffle?
+### How Do We Do Agile using GitHub & Waffle?
 - Sprints and Releases are created as milestones in GitHub
 - Scrum board on Waffle can be filtered by milestone to get a sprint/release specific view
 - Issues can be assigned story-points on Waffle
@@ -18,7 +18,7 @@ evolve, demonstrating React and JS best practices.
 - As card are dragged and dropped in Waffle, GitHub labels are add/removed to/from issues accordingly.
 - If labels are added to issues from GitHub or the command line, cards are moved to the correct column in Waffle.
 
-### Agile Scrum Process
+### Scrum Process
 > The process is suggested as a series of columns in Waffle as labels applied GitHub issues.
 - *Backlog:* Any open issues automatically show up in this column. Filter the board by milestone to see a sprint/release backlog. Order of cards indicate priority.
 - *In Analysis/Design:* Place issues that are under active analysis or UI/UX design.
