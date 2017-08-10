@@ -1,8 +1,8 @@
 # Excella Labs Website
 > Excella Labs is a place for Excella’s technologists to share the new and experimental projects we're working on.
 
-The Excella Labs project is an experiment in and of itself, intent on aggregating Excella's new and upcoming projects, meetups, blog posts, and more 
-from our various microservices via RESTful apis. Built on a foundation of `create-react-app`, `Redux`, and `Jest`, this static React app will continually 
+The Excella Labs project is an experiment in and of itself, intent on aggregating Excella's new and upcoming projects, meetups, blog posts, and more
+from our various microservices via RESTful apis. Built on a foundation of `create-react-app`, `Redux`, and `Jest`, this static React app will continually
 evolve, demonstrating React and JS best practices.
 
 ![Excella Labs Website](./ExcellaLabsBanner.jpg)
@@ -53,7 +53,7 @@ evolve, demonstrating React and JS best practices.
 - Domain and SSL certificated hosted using Route53
 - HTTP/HTTPS routing and reverse proxy managed by ALB, including SSL cert application
 - HTTP -> HTTPS routing enforced by [minimal-node-web-server](https://hub.docker.com/r/duluca/minimal-node-web-server/)
-  
+
 ## Performance Numbers
 - Docker Container image size ~60mb
 - RAM usage at idle ~65mb per container
@@ -67,8 +67,8 @@ After cloning the repository, run the following commands:
 * `npm start` -- this will bundle everything, start the dev and json servers, and open your default browser to the app
 
 ### Building and Testing
-* `npm run image:build` to build the Docker image
-* `npm run image:debug` to test the Docker image
+* `npm run docker:build` to build the Docker image
+* `npm run docker:debug` to test the Docker image
 
 ### Push Button Deployments
 > Below instruction have not been tested on a Windows environment
