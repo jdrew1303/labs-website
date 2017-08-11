@@ -84,4 +84,4 @@ After cloning the repository, run the following commands:
   * Run `aws configure`
   * You'll need your Access Key ID and Secret Access Key
   * Default region name: us-east-1
-* `npm run aws:publish` to configure Docker with aws, publish your latest image build and release it on ECS
+* `npm run aws:release` to configure Docker with aws, publish your latest image build and release it on ECS
