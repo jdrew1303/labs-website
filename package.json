@@ -1,6 +1,6 @@
 {
   "name": "labs-website",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "homepage": "https://ExcellaLabs.com",
   "imageRepo": "090999229429.dkr.ecr.us-east-1.amazonaws.com/excella-labs",
