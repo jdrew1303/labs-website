@@ -38,6 +38,8 @@ evolve, demonstrating React and JS best practices.
 - Node
 - Alpine Linux
 
+> For more info see [Minimal Node Web Server](https://hub.docker.com/r/duluca/minimal-node-web-server/) v8.4 for Production Publishing
+
 ## DevOps Stack
 - npm scripts to build ReactJS app leveraging `react-scripts`
 - npm scripts to build container images leveraging [minimal-node-web-server](https://hub.docker.com/r/duluca/minimal-node-web-server/) and `docker cli` tools
@@ -70,6 +72,8 @@ After cloning the repository, run the following commands:
 * `npm run docker:build` to build the Docker image
 * `npm run docker:debug` to test the Docker image
 
+> For more info see [npm scripts for Docker](https://gist.github.com/duluca/d13e501e870215586271b0f9ce1781ce)
+
 ### Push Button Deployments
 > Below instruction have not been tested on a Windows environment
 * Create `.env` file and set `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`
@@ -85,3 +89,5 @@ After cloning the repository, run the following commands:
   * You'll need your Access Key ID and Secret Access Key
   * Default region name: us-east-1
 * `npm run aws:release` to configure Docker with aws, publish your latest image build and release it on ECS
+
+> For more info see [npm scripts for AWS](https://gist.github.com/duluca/2b67eb6c2c85f3d75be8c183ab15266e)
